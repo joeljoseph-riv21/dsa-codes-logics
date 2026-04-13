@@ -1,4 +1,4 @@
-#returning the subtraction of 2 numbers that equals target
+# returning the subtraction of 2 numbers that equals target
 my_list = [7 ,3 ,4 ,5 ,10 ,3]
 target = 7
 
@@ -20,6 +20,6 @@ while left_pointer < right_pointer:
         right_pointer -= 1  
 
 if left_pointer >= right_pointer:
-    print(f"No pair found that subtracts to {target}")
+    print(f"No pair found that subtracts to {target}") 
 
 
